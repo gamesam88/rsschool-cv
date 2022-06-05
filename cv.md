@@ -1,5 +1,4 @@
 ##    Alexander Dmitrov
-**********
 ![my-photo](./photo.jpg "Подпись")
 - ***Contacts:***
     - __Email:__ dyxpp88@gmail.com
@@ -22,8 +21,8 @@
     }
     ```
 - ***My works:***
-    - https://github.com/gamesam88/Tribute-Page.git
-    - https://github.com/gamesam88/rsschool-cv.git
+    - [Tribute Page](https://github.com/gamesam88/Tribute-Page.git "Tribute-Page")
+    - [Rsschool CV](https://github.com/gamesam88/rsschool-cv.git "rsschool-cv")
 - ***Corses:***
     - FreeCodeCamp
     - CS50
@@ -31,4 +30,3 @@
 - ***Language:***
     - Russian (native)
     - English (A2)
-
