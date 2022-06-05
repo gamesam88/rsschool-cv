@@ -22,7 +22,7 @@
 - ***My works:***
     - [Tribute Page](https://github.com/gamesam88/Tribute-Page.git "Tribute-Page")
     - [Rsschool CV](https://github.com/gamesam88/rsschool-cv.git "rsschool-cv")
-- ***Corses:***
+- ***Courses:***
     - FreeCodeCamp
     - CS50
     - English Galaxy
