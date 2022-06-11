@@ -4,14 +4,14 @@
     list-style: none;
     font-size: inherit;
     text-decoration: none;
+    box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
+
 body{
     max-width: 1100px;
     margin: 0 auto;
 }   
+
 .wrapper {
     height: 100vh;
     display: flex;
@@ -28,6 +28,10 @@ pre{
     display: block;
 }
 
+a{
+    color: #41627C;
+}
+
 section{
     display: flex;
     flex-direction: column;
@@ -36,12 +40,12 @@ section p {
     text-align: center;
 }
 
-p{
+h2{
     font-size: 18px;
     font-weight: 700;
 }
 nav a{
-    color: aqua;
+    color: #00E6B8;
 }
 
 /* Header */
@@ -76,20 +80,20 @@ nav a{
     justify-content: start;
     height: 100%;
     align-items: center;
+    min-width: 500px;
 }
 
 .main-container {
     display: flex;
-    max-width: 800px;
+    width: 100%;
 }
 
 .left-side {
-    width: 25%;
-    margin: 0;
-    min-width: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 0 40px;
 }
 
 h1{
@@ -104,25 +108,38 @@ h1{
     margin: 10px 0;
 }
 
-img{
-    border-radius: 70%;
+.main-img img{
+    border-radius: 50%;
+    max-width: 200px;
 }
 
-.contacts{
+.left-sections{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
+    margin: 10px 0;
+}
+
+.left-li{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
 }
 
 .rigth-side {
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    max-width: 400px;
 }
 
 .rigth-side section{
-
 }
 
 .main-about {
