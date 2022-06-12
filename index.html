@@ -13,16 +13,14 @@
 
     <div class="wrapper">
         <header class="header">
-            <div class="container">
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="">About me</a></li>
-                        <li class="nav-item"><a href="">Skills</a></li>
-                        <li class="nav-item"><a href="">Projects</a></li>
-                        <li class="nav-item"><a href="">Contacts</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about">About me</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
         </header>
         <main class="main">
             <div class="main-container">
@@ -31,7 +29,7 @@
                         <img src="./assets/UyIRxyJInSQ1.jpg" alt="my photo">
                     </div>
                     <h1>Alexander<br>Dmitrov</h1>
-                    <section>
+                    <section id="contacts">
                         <div class="left-sections">
                             <h2>Contacts</h2>
                             <ul>
@@ -66,62 +64,68 @@
                     </section>
                 </div>
                 <div class="rigth-side">
-                    <section>
-                        <h2>About me</h2>
-                        <div class="main-about">
-                            My goal in this course is to improve my knowledge in Frontend development,
+                    <section id="about" class="rigth-section">
+                        <h2 class="section-name">About me</h2>
+                        <p class="main-about">
+                            &nbsp;Hello! My name is Alexander. My goal in this course is to improve my knowledge in
+                            Frontend
+                            development,
                             as well as to find like-minded people. At the moment I don’t have much experience
                             in development, but I like doing it and I’m learning new things pretty quickly.
-                        </div>
+                        </p>
                     </section>
-                    <section>
-                        <h2>Skills</h2>
+                    <section id="skills" class="rigth-section">
+                        <h2 class="section-name">Skills</h2>
                         <div class="skill-list">
                             <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>JavaScript</li>
-                                <li>Figma</li>
-                                <li>Git</li>
+                                <li class="rigth-li">HTML5</li>
+                                <li class="rigth-li">CSS3</li>
+                                <li class="rigth-li">JavaScript</li>
+                                <li class="rigth-li">Figma</li>
+                                <li class="rigth-li">Git</li>
                             </ul>
                         </div>
                     </section>
-                    <section>
-                        <h2>Courses</h2>
+                    <section class="rigth-section">
+                        <h2 class="section-name">Courses</h2>
                         <ul>
-                            <li>FreeCodeCamp</li>
-                            <li>CS50</li>
-                            <li>English Galaxy</li>
+                            <li class="rigth-li">FreeCodeCamp</li>
+                            <li class="rigth-li">CS50</li>
+                            <li class="rigth-li">English Galaxy</li>
                         </ul>
                     </section>
-                    <section>
-                        <h2>My works:</h2>
+                    <section id="projects" class="rigth-section">
+                        <h2 class="section-name">My works:</h2>
                         <ul>
-                            <li><a href="https://gamesam88.github.io/rsschool-cv/cv" target="blanck">Rsschool CV</a>
+                            <li class="rigth-li"><a href="https://gamesam88.github.io/rsschool-cv/cv"
+                                    target="blanck">Rsschool CV</a>
                             </li>
-                            <li><a href="https://gamesam88.github.io/Tribute-Page/Camp/" target="blanck">Tribute
+                            <li class="rigth-li"><a href="https://gamesam88.github.io/Tribute-Page/Camp/"
+                                    target="blanck">Tribute
                                     Page</a></li>
                         </ul>
                     </section>
-                    <section>
-                        <h2>Code Example</h2>
+                    <section class="rigth-section">
+                        <h2 class="section-name">Code Example</h2>
                         <div class="code">
                             <pre>function minValue(values){
-    return Number([...new Set(values)]
+    <code>return Number([...new Set(values)]
         .sort((a,b)=>a-b)
         .join(""))
-}
+}</code>
                             </pre>
                         </div>
                     </section>
+
                 </div>
             </div>
         </main>
         <footer class="footer">
             <p>2022-Q2</p>
-            <a href="https://github.com/gamesam88">My Github</a>
-            <a href="https://rs.school/index.html">RS School</a>
-
+            <a href="https://github.com/gamesam88" target="blank">My Github</a>
+            <a href="https://rs.school/js/" target="blank">
+                <img height="25" src="./assets/rs_school_js.svg" alt="rs_school">
+            </a>
         </footer>
     </div>
 </body>
