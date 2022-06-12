@@ -23,8 +23,6 @@ body{
 
 /* Common */
 
-
-
 pre{
     display: block;
     margin-top: 15px;
@@ -36,7 +34,7 @@ section{
 }
 section p {
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 h1{
@@ -46,7 +44,7 @@ h1{
 }
 
 h2{
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 800;
 }
 a{
@@ -64,8 +62,6 @@ a:hover{
     background-color: #D7DDE8;
 }
 
-
-
 .nav-list {
     display: flex;
     flex-direction: row;
@@ -75,7 +71,7 @@ a:hover{
 }
 
 .nav-item {
-    font-size: 20px;
+    font-size: 21px;
 }
 
 /* Main */
@@ -197,7 +193,7 @@ a:hover{
     
 }
 
-
+/* Media */
 
 @media (max-width: 680px) {
     .main-container {
