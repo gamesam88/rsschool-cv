@@ -1,5 +1,5 @@
 ##    Alexander Dmitrov
-![my-photo](./assets/photo.jpg "my-photo")
+![my-photo](./assets/UyIRxyJInSQ1.jpg "my-photo")
 - ***Contacts:***
     - __Discord:__  Atzak(@gamesam88)
     - __Github:__ [gamesam88](https://github.com/gamesam88 "Github")
