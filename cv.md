@@ -1,5 +1,5 @@
 ##    Alexander Dmitrov
-![my-photo](./assets/photo.jpg "my-photo")
+![UyIRxyJInSQ1](./assets/UyIRxyJInSQ1.jpg "avatar")
 - ***Contacts:***
     - __Discord:__  Atzak(@gamesam88)
     - __Github:__ [gamesam88](https://github.com/gamesam88 "Github")
@@ -22,8 +22,9 @@
 - ***My works:***
     - [Tribute Page](https://github.com/gamesam88/Tribute-Page.git "Tribute-Page")
     - [Rsschool CV](https://github.com/gamesam88/rsschool-cv.git "rsschool-cv")
-- ***Courses:***
+- ***Education:***
     - FreeCodeCamp
+    - The Rolling Scopes School
     - CS50
     - English Galaxy
 - ***Language:***
