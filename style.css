@@ -7,11 +7,11 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     max-width: 900px;
     margin: 0 auto;
-    
-}   
+
+}
 
 .wrapper {
     min-height: 100vh;
@@ -23,41 +23,43 @@ body{
 
 /* Common */
 
-pre{
+pre {
     display: block;
     margin-top: 15px;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
 }
+
 section p {
     text-align: center;
     font-size: 17px;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 30px;
     margin: 20px 0;
 }
 
-h2{
+h2 {
     font-size: 21px;
     font-weight: 800;
 }
-a{
+
+a {
     color: #41627C;
 }
 
-a:hover{
+a:hover {
     color: aqua;
 }
 
 /* Header */
 
-.header{
+.header {
     width: 100%;
     background-color: #D7DDE8;
 }
@@ -109,12 +111,12 @@ a:hover{
     margin: 10px 0;
 }
 
-.main-img img{
+.main-img img {
     border-radius: 50%;
     max-width: 200px;
 }
 
-.left-sections{
+.left-sections {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,14 +124,14 @@ a:hover{
     margin: 10px 0;
 }
 
-.left-li{
+.left-li {
     display: flex;
     flex-direction: row;
     gap: 10px;
     margin: 10px 0;
 }
 
-.icons{
+.icons {
     width: 20px;
     height: 20px;
 }
@@ -138,14 +140,15 @@ a:hover{
     display: flex;
     flex-direction: column;
     max-width: 400px;
-    
+
 }
 
-.rigth-section{
+.rigth-section {
     margin-top: 20px;
-    
+
 }
-.section-name{
+
+.section-name {
     display: block;
     position: relative;
 }
@@ -161,9 +164,10 @@ a:hover{
     max-width: 350px;
     height: 1px;
     border-radius: 4px;
-    background: #41627C;}
+    background: #41627C;
+}
 
-.rigth-section li{
+.rigth-section li {
     margin: 5px 0;
 }
 
@@ -172,7 +176,7 @@ a:hover{
     margin: 10px 0;
 }
 
-.rigth-li::before{
+.rigth-li::before {
     content: url("./assets/angle-double-bold.svg");
     width: 20px;
     display: inline-block;
@@ -190,7 +194,7 @@ a:hover{
     height: 50px;
     width: 100%;
     margin-top: 50px;
-    
+
 }
 
 /* Media */
@@ -202,5 +206,5 @@ a:hover{
         margin-left: 20px;
         align-items: center;
     }
-        
+
 }
